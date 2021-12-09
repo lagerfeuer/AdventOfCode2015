@@ -1,5 +1,6 @@
 # Advent of Code
 test.txt
+template/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
