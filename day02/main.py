@@ -19,9 +19,7 @@ def part2(data):
 
 def main():
     data = [
-        tuple(sorted(map(int,
-                         line.rstrip().split('x'))))
-        for line in fileinput.input()
+        tuple(sorted(map(int, line.rstrip().split("x")))) for line in fileinput.input()
     ]
     print(part1(data))
     print(part2(data))
